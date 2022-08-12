@@ -14,7 +14,7 @@ def get_clanlist():
 
 def get_memberinfo(id):
     # info par membre
-    #POUR HAYK: CA MARCHE PAS DSL JE VEUX AUTOMATISER LES REQUESTS AVEC LES DIOFFERENTS ID C'EST DUR DSL
+    #POUR ---- (tu te reconnais): CA MARCHE PAS DSL JE VEUX AUTOMATISER LES REQUESTS AVEC LES DIOFFERENTS ID C'EST DUR DSL
     id2 = str(id)
     adresse = "https://api.clashofclans.com/v1/players/%23"+id2[1:]
     response = requests.get(adresse, headers=headers)
